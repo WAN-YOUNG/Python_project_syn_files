@@ -1,0 +1,14 @@
+ip: 192.168.31.200
+port: 22
+user: root
+passwd: qwert+1234567
+key_file: E:\pro_study\key\id_rsa_2048_exercise_main
+local_root_path: E:\pro_study\Python\project\sync_files\
+remote_root_path: /home/project/sync_files/
+files: 
+ - a.txt
+ - b.txt
+ - ignore\c.txt
+ignore: 
+ - ignore\
+ - a.txt
